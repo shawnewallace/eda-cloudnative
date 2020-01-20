@@ -273,8 +273,8 @@ __pycache__/
 **/.terraform/*
 
 # .tfstate files
-# *.tfstate
-# *.tfstate.*
+*.tfstate
+*.tfstate.*
 
 # Crash log files
 crash.log
@@ -296,3 +296,5 @@ override.tf.json
 #
 # !example_override.tf
 **/appsettings.local.json
+
+
